@@ -5,10 +5,9 @@ Let `x` be a node in a binary search tree. If `y`is a node in the left subtree o
 
 Tudo é em relação ao node root.
 
-O in-order é: esquerda, root, direita.
-No pré-order, o root vem antes (por isso o "pré"). root, esquerda, direita.
-No pós-order, o root vem depois de tudo (por isso o "pós"): esquerda, direita, root
-
+- O in-order é: esquerda, **root**, direita.
+- No pré-order, o **root** vem antes (por isso o "pré"): **root**, esquerda, direita.
+- No pós-order, o **root** vem depois de tudo (por isso o "pós"): esquerda, direita, **root**
 ## Exemplo de in order
 
 ```php

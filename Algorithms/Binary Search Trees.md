@@ -1,3 +1,8 @@
+---
+tags:
+  - algorithms
+---
+
 ## binary-search-tree property
 Let `x` be a node in a binary search tree. If `y`is a node in the left subtree of `y`, then `y.key <= x.key`. If `y` is a node in the right subtree of *x*, then `y.key >= x.key`.  [[Cormen]]
 
@@ -74,4 +79,36 @@ def pre_order(node: Node) -> None:
 
 
 pre_order(six_root)
+```
+
+## Exemplo pós order
+
+```javascript
+class Node {
+  constructor(key, left, right) {
+    this.key = key;
+    this.left = left;
+    this.right = right;
+  }
+}
+
+three = new Node(3);
+five = new Node(5);
+four = new Node(4, three, five);
+
+eight = new Node(8);
+seven = new Node(7, null, eight);
+
+six_root = new Node(6, four, seven);
+
+function postOrder(node) {
+  if (node == null)
+    return;
+
+  postOrder(node.left);
+  postOrder(node.right);
+  console.log(node.key);
+}
+
+postOrder(six_root);
 ```

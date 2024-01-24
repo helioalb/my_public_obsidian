@@ -9,3 +9,12 @@ O index pode ser comparado ao indice remissivo dos livros: O que tem lá não al
 O que difere o indice do livro com um index no banco de dados é o dinamismo. Enquanto no livro não é possível adicionar ou remover novos dados (a não ser que seja na próxima edição), no banco de dados, a cada adição/remoção o indice é reorganizado.
 
 No caso do banco de dados, para que seja possível inserir novas entradas ao index com baixo custo, usa-se [[Doubly Linked List]].
+
+## Function based index
+FBI - Funcion-based index
+
+Exemplo:
+
+```sql
+CREATE INDEX emp_up_name ON employees (UPPER(last_name));
+```

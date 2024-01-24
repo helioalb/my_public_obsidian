@@ -50,7 +50,7 @@ function inOrder(?Node $node) {
 inOrder($six_root);
 ```
 
-## Exemplo de pré order
+## Exemplo de pré order [[Python]]
 
 ```python
 class Node:
@@ -81,7 +81,7 @@ def pre_order(node: Node) -> None:
 pre_order(six_root)
 ```
 
-## Exemplo pós order
+## Exemplo pós order [[Javascript]]
 
 ```javascript
 class Node {

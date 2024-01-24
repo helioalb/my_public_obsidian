@@ -1,3 +1,4 @@
+## if __name__ == 'main'
 Todo arquivo python é um modulo. E todo módulo tem um `__name__`.
 
 Quando o módulo é chamado diretamente, o seu `__name__` é `'main'`.
@@ -38,7 +39,7 @@ Module name of file one.py is: one
 Module name of file two.py is: __main__
 ```
 
-## Exemplo de uso
+### Exemplo de uso
 
 Imagine que queremos testar o módulo abaixo:
 

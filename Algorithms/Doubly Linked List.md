@@ -63,3 +63,6 @@ def main():
 if __name__ == "__main__":
   main()
 ```
+
+## Iteração sobre a lista
+A iteração sobre a lista pode ser realizada com o design pattern [[Iterator]]

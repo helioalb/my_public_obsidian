@@ -17,6 +17,12 @@ Cada linha dentro do bloco contém o indice e o endereço fisico da linha onde s
 Exemplo:
 
 ![[database_blocks.png]]
+Diferente do indice, que usa a [[Doubly Linked List]] como parte da estrutura, a tabela usa [[Heap Structure]]
+
+## Search tree (B-tree = Balanced tree)
+
+Ao procurar por um leaf node, poderiamos percorrer a [[Doubly Linked List]], no entanto, numa tabela com muitas entradas (bilhões, por exemplo) isso é inviável (imagine que o leaf node procurado é o último da lista). Para isso, a estrutura de [[Binary Search Trees]] (principalmente a B-tree) é mais útil. Veja o exemplo:
+![[binary-search-tree.png]]
 
 ## Function based index
 FBI - Funcion-based index

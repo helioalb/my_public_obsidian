@@ -10,6 +10,14 @@ O que difere o indice do livro com um index no banco de dados é o dinamismo. En
 
 No caso do banco de dados, para que seja possível inserir novas entradas ao index com baixo custo, usa-se [[Doubly Linked List]].
 
+## Index leaf nodes
+
+Pense em blocos com com índices ordenados. Pense também que cada bloco desses é um node de uma [[Doubly Linked List]]. Isso são os **Index leaf nodes** . Cada linha do bloco aponta para os dados reais na tabela
+Cada linha dentro do bloco contém o indice e o endereço fisico da linha onde se encontra os dados completos ao qual o indice se refere.
+Exemplo:
+
+![[database_blocks.png]]
+
 ## Function based index
 FBI - Funcion-based index
 

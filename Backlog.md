@@ -1,3 +1,5 @@
 - [x] Estudar design patter [[Iterator]] para usar junto com [[Doubly Linked List]]
 - [ ] Estudar [[Heap Structure]] para fundamentar estudo de [[Livro SQL Performance Explained]]
+- [ ] Busca em largura
+- [ ] Busca em profundidade
 - [ ] 

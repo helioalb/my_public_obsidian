@@ -1,6 +1,5 @@
+Implementação em [[Python]]
 ```python
-
-
 class Node:
   def __init__(self, key, previous = None, next = None):
     self.key = key

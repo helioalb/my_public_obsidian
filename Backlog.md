@@ -1,4 +1,5 @@
 - [x] Estudar design patter [[Iterator]] para usar junto com [[Doubly Linked List]]
+- [ ] Ler https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policy-eval-denyallow
 - [ ] Estudar [[Heap Structure]] para fundamentar estudo de [[Livro SQL Performance Explained]]
 - [ ] Busca em largura
 - [ ] Busca em profundidade

@@ -17,15 +17,31 @@ Cada linha dentro do bloco contém o indice e o endereço fisico da linha onde s
 Exemplo:
 
 ![[database_blocks.png]]
-Diferente do indice, que usa a [[Doubly Linked List]] como parte da estrutura, a tabela usa [[Heap Structure]]
+Diferente do índice, que usa a [[Doubly Linked List]] como parte da estrutura, a tabela usa [[Heap Structure]]
 
 ## Search tree (B-tree = Balanced tree)
 
-Ao procurar por um leaf node, poderiamos percorrer a [[Doubly Linked List]], no entanto, numa tabela com muitas entradas (bilhões, por exemplo) isso é inviável (imagine que o leaf node procurado é o último da lista). Para isso, a estrutura de [[Binary Search Trees]] (principalmente a B-tree) é mais útil. Veja o exemplo:
+Ao procurar por um leaf node, poderíamos percorrer a [[Doubly Linked List]], no entanto, numa tabela com muitas entradas (bilhões, por exemplo) isso é inviável (imagine que o leaf node procurado é o último da lista). Para isso, a estrutura de [[Binary Search Trees]] (principalmente a B-tree) é mais útil. Veja o exemplo:
 ![[binary-search-tree.png]]
 
+## Index lookup
+Um index lookup envolve três passos: Percorrer a árvore, seguir o leaf node chain ([[Doubly Linked List]]), pegar o dado na tabela.
+
+O "percorrer a árvore", que tem um limite superior (se a árvore tem profundidade 5, por exemplo, esse é o máximo de passos que vão existir na busca.)
+
+Com exceção do "percorrer a árvore", que tem um limite superior, as etapas podem ter muitas operações (percorrer muito da [[Doubly Linked List]] e buscar vários dados no disco). Com isso é possível perceber que, mesmo com índice, a busca ainda pode ser lenta.
+
+## Cláusula where
+
+Uma cláusula where mal escrita é  primeiro ingrediente para queries lentas.
+
+```
+obs: a primary key de uma tabela tem um índice. Mesmo que não tenhamos feito um CREATE INDEX ...
+```
+
+
 ## Function based index
-FBI - Funcion-based index
+FBI - Function-based index
 
 Exemplo:
 

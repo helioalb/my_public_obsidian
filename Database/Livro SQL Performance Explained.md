@@ -133,6 +133,22 @@ Maria, Baoba
 Mercedes, Alecrim
 
 A ordem com que o índice concatenado é criado diferencia a eficiência no momento da busca.
+
+## Query Optimizer
+
+As know as **query plan**
+
+O **query optimizer** transforma a consulta em um plano de execução. Esse processo também é chamado de *compiling* ou *parse*.
+
+Existem dois tipos de **query optimizer**
+
+### CBO (Cost-Based Optimizers)
+
+Faz vários planos de execução. Escolhe o mais "barato" e o executa.
+
+### RBO (Rule Based Optimizers)
+
+Basea-se em regras hard coded (pouco usado)
 ## Function based index
 FBI - Function-based index
 

@@ -1,3 +1,8 @@
+- [[Python - Binary Search Tree - Pre order example]]
+- [[Python - Doubly Linked List]]
+- [[Python - if __name__ equals __main__]]
+- [[Python - Iterative search on binary search tree]]
+- [[Python - Search on a tree]]
 ## if __name__ == 'main'
 Todo arquivo python é um modulo. E todo módulo tem um `__name__`.
 

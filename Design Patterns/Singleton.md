@@ -1,0 +1,1 @@
+- [[PHP - Singleton example]]

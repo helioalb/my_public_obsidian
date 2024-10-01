@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"c7384081182add18","x":-480,"y":-240,"width":250,"height":60,"type":"text","text":"Arquitetura de solução"},
+		{"id":"9c80210f61fbcf34","x":-108,"y":-296,"width":250,"height":60,"type":"text","text":"Custo"},
+		{"id":"a1c7d1f297031062","x":-100,"y":-182,"width":250,"height":60,"type":"text","text":"Restrições"},
+		{"id":"7ebbe3599d4138fd","x":-339,"y":6,"width":250,"height":60,"type":"text","text":"Escalabilidade"},
+		{"id":"dafa43ea1004bc9f","x":-60,"y":6,"width":250,"height":60,"type":"text","text":"Disponibilidade"}
+	],
+	"edges":[
+		{"id":"b2be07b802259018","fromNode":"c7384081182add18","fromSide":"right","toNode":"9c80210f61fbcf34","toSide":"left"},
+		{"id":"35fb68820da5772f","fromNode":"c7384081182add18","fromSide":"right","toNode":"a1c7d1f297031062","toSide":"left"},
+		{"id":"a5061134796d9bc7","fromNode":"c7384081182add18","fromSide":"bottom","toNode":"7ebbe3599d4138fd","toSide":"top"},
+		{"id":"00f45cfb4b4955ea","fromNode":"c7384081182add18","fromSide":"bottom","toNode":"dafa43ea1004bc9f","toSide":"top"}
+	]
+}

@@ -1,6 +1,7 @@
-- [ ] https://lmax-exchange.github.io/disruptor/
+- [x] https://lmax-exchange.github.io/disruptor/
+	- [ ] https://martinfowler.com/articles/lmax.html
+	- [ ] https://blog.pantuza.com/artigos/ring-buffer
 - [ ] https://medium.com/eureka-engineering/understanding-allocations-in-go-stack-heap-memory-9a2631b5035d
 - [ ] https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java
 - [ ] https://www.bairesdev.com/blog/java-concurrency/
 - [ ] https://www.youtube.com/watch?v=2NefeyMYr_0
-- [ ] 

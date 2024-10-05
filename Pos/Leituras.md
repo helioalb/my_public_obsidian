@@ -5,3 +5,12 @@
 - [ ] https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java
 - [ ] https://www.bairesdev.com/blog/java-concurrency/
 - [ ] https://www.youtube.com/watch?v=2NefeyMYr_0
+- [ ] Estudos sobre gravação de logs (AWS, GCP, AZURE) - STDOUT - STDERROR
+- [ ] Estratégias de deploy
+	- [ ] Blue green
+	- [ ] Reckless Deployment
+	- [ ] Rolling Upgrade
+	- [ ] Canary Deployment
+	- [ ] Versioned Deployment
+- [ ] Criar um exemplo de CQRS
+- [ ] 

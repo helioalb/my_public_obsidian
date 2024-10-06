@@ -1,6 +1,7 @@
 - [x] https://lmax-exchange.github.io/disruptor/
 	- [ ] https://martinfowler.com/articles/lmax.html
 	- [ ] https://blog.pantuza.com/artigos/ring-buffer
+	- [ ] https://martinfowler.com/articles/microservices.html
 - [ ] https://medium.com/eureka-engineering/understanding-allocations-in-go-stack-heap-memory-9a2631b5035d
 - [ ] https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java
 - [ ] https://www.bairesdev.com/blog/java-concurrency/
@@ -13,4 +14,16 @@
 	- [ ] Canary Deployment
 	- [ ] Versioned Deployment
 - [ ] Criar um exemplo de CQRS
+- [ ] Lock otimista
+- [ ] Caching
+	- [ ] Time-based invalidation
+	- [ ] Least Recently Used (LRU)
+	- [ ] Most Recently Used (MRU)
+	- [ ] Least Frequently Used (LFU)
+	- [ ] TTL-based invalidation
+	- [ ] Write-through invalidation
+	- [ ] Write-back invalidation
+	- [ ] 
+- [ ] Entender o zookeeper https://zookeeper.apache.org/
+- [ ] Entender o https://www.consul.io/
 - [ ] 

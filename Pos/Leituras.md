@@ -1,7 +1,10 @@
-- [x] https://lmax-exchange.github.io/disruptor/
+q- [x] https://lmax-exchange.github.io/disruptor/
 	- [ ] https://martinfowler.com/articles/lmax.html
 	- [ ] https://blog.pantuza.com/artigos/ring-buffer
-	- [ ] https://martinfowler.com/articles/microservices.html
+- [x] https://martinfowler.com/articles/microservices.html
+- [x] https://martinfowler.com/articles/201701-event-driven.html
+- [x] https://blog.bitsrc.io/bff-pattern-backend-for-frontend-an-introduction-e4fa965128bf
+- [ ] https://www.slimane.io/articles/how-to-optimize-elasticsearch-for-search-speed
 - [ ] https://medium.com/eureka-engineering/understanding-allocations-in-go-stack-heap-memory-9a2631b5035d
 - [ ] https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java
 - [ ] https://www.bairesdev.com/blog/java-concurrency/

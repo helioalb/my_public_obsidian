@@ -9,6 +9,7 @@ q- [x] https://lmax-exchange.github.io/disruptor/
 - [ ] https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java
 - [ ] https://www.bairesdev.com/blog/java-concurrency/
 - [ ] https://www.youtube.com/watch?v=2NefeyMYr_0
+- [ ] Elasticsearch - https://livebook.manning.com/book/elasticsearch-in-action-second-edition
 - [ ] Estudos sobre gravação de logs (AWS, GCP, AZURE) - STDOUT - STDERROR
 - [ ] Estratégias de deploy
 	- [ ] Blue green

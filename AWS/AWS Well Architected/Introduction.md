@@ -1,7 +1,7 @@
 - **Component** = Um componente atende a um requisito de negócio. é composto de código + configuração + recurso da AWS. 
 - **workload** = Conjunto de componentes que juntos entregam um valor de negócio.
 - **architecture** = A maneira como os componentes interagem dentro de um workload.
-- **milestone** = mudanças importantes na arquitetura conforme está evolui.
+- **milestone** = mudanças importantes na arquitetura conforme esta evolui.
 - **technology portfolio** = coleção de workloads que são necessários para o negócio existir.
 - **level of effort**
 	- **High**: semanas a meses
@@ -10,7 +10,7 @@
 
 ## Princípios gerais de design
 
-### Para de adivinhar suas necessidades de capacidade
+### Pare de adivinhar suas necessidades de capacidade
 Avaliação mal feita (ou nem avaliar) pode fazer você gastar muito mais do que o necessário. Ou pior, seu sistema pode cair por falta de recursos.
 
 ### Test systems at production scale
@@ -29,6 +29,9 @@ Você deve coletar dados de seus workloads. Como sua infraestrutura está versio
 Agende _game days_ para simular eventos em produção (simular black friday, por exemplo) (lembre-se do principio "TEST SYSTEMS AT PRODUCTION SCALE")
 
 ## Operational excellence
+A idéia é dar suporte ao desenvolvimento e facilitar ao máximo a execução dos **workloads**.
+
+Veja mais em [[Operational excellence]]
 ## Security
 ## Reliability
 ## Performance efficiency

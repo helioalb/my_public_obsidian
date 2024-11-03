@@ -47,7 +47,18 @@ Sempre que possível, use serviços gerenciados. Existem pessoas totalmente espe
 - Dê suporte aos membros do time. 
 - Incentive experimentações para acelerar o aprendizado e manter seu time engajado.
 
-## Perguntas
+#### Perguntas
 ### Como determinar quais são suas prioridades?
-Todas as pessoas da equipe devem saber qual é o seu papel para atingir os objetivos da empresa. Mantenha as todas as metas compartilhadas entre todos.
+Todas as pessoas da equipe devem saber qual é o seu papel para atingir os objetivos da empresa. Mantenha todas as metas compartilhadas entre todos.
 
+## Prepare
+
+1) Entenda bem seus **workloads**. Saiba o que você espera deles. Assim você vai conseguir projetá-los para fornecer os dados que dizem se você está no caminho certo.
+2) Identifique os KPI's do negócio.
+3) Revise sempre as estratégias de observabilidade.
+4) Adote estratégias que facilitem a subida de mudanças em produção. (Exemplo: deploy automatizado)
+5) Adote estratégias que facilitem a reversão de mudanças (Exemplo: Rollback facilitado)
+6) Sempre faça mudanças que sejam pequenas e facilmente reversíveis.
+7) Tenha sempre playbooks (o que fazer) e runbooks (como fazer)
+8) Infraestrutura deve estar em código.
+9) Faça "pré-mortens" para prever falhas e assim confeccionar playbooks e runbooks.

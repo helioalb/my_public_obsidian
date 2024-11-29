@@ -32,7 +32,7 @@ Aprenda com todos os eventos operacionais e principalmente com as falhas. Compar
 
 ### Use managed services
 
-Sempre que possível, use serviços gerenciados. Existem pessoas totalmente especializadas cuidando deles. É mais caro, mas os riscos são muito menores.
+Sempre que possível, use serviços gerenciados. Existem pessoas especializadas cuidando deles. É mais caro, mas os riscos são muito menores.
 
 ## Best practices
 
@@ -48,10 +48,18 @@ Sempre que possível, use serviços gerenciados. Existem pessoas totalmente espe
 - Incentive experimentações para acelerar o aprendizado e manter seu time engajado.
 
 #### Perguntas
-### Como determinar quais são suas prioridades?
+##### 1 - Como determinar quais são suas prioridades?
 Todas as pessoas da equipe devem saber qual é o seu papel para atingir os objetivos da empresa. Mantenha todas as metas compartilhadas entre todos.
 
-## Prepare
+##### 2 - Como você estrutura sua organização para dar suporte aos resultados de negócio esperados?
+
+Seus times precisam saber qual é o seu papel no resultados do negócio. Seus times devem entender qual é o seu papel no sucesso de outros times. Devem entender que é o papel de outros times no seu resultado. E também devem entender quais são metas compartilhadas. Entendendo suas responsabilidades, responsabilidade de outros times e quem tem autoridade para tomadas de decisão vai ajudar no foco de esforços e irá maximizar o valor dos times.
+
+##### 3 - Como sua cultura organizacional pode dar suporte aos resultados de negócio desejados?
+
+Dando suporte às equipes para que essas sejam mais efetivas em suas ações.
+
+### Prepare
 
 1) Entenda bem seus **workloads**. Saiba o que você espera deles. Assim você vai conseguir projetá-los para fornecer os dados que dizem se você está no caminho certo.
 2) Identifique os KPI's do negócio.
@@ -62,3 +70,43 @@ Todas as pessoas da equipe devem saber qual é o seu papel para atingir os objet
 7) Tenha sempre playbooks (o que fazer) e runbooks (como fazer)
 8) Infraestrutura deve estar em código.
 9) Faça "pré-mortens" para prever falhas e assim confeccionar playbooks e runbooks.
+
+#### Perguntas
+
+##### 4 - Como implementar observabilidade no seu workload?
+
+Implemente a observabilidade de tal maneira que você possa saber o seu estado atual e possa fazer modificações guiadas pelos requisitos de negócio.
+
+##### 5 - Como você reduz defeitos, facilita "remediações" e melhora o fluxo em produção?
+
+Adote abordagens que facilitem o deploy em produção (e também facilitem rollbacks). Também é importante adotar estratégias que permitam mensurar mudanças realizadas.
+
+##### 6 - Como você mitiga riscos de deploy?
+
+Adote abordagens que forneçam um feedback rápido sobre a qualidade de deploys recém lançados. Além disso tenha um mecanismo que permita um rápido rollback.
+
+##### 7 - Como você sabe que está pronto para suportar um workload?
+
+Avalie a prontidão operacional do seu workload, processos e procedimentos. Além disso, garanta que o time entenda quais são os riscos operacionais do seu workload.
+
+## Operate
+
+1) Tenha observabilidade
+2) Configure alertas
+3) O sucesso de um workload é medido pelos seus resultados comerciais. Defina os resultados esperados.
+4) Determine as métricas de satisfação do cliente e as monitore ativamente.
+5) Mapeie todos os eventos operacionais. Para os bem definidos, use _runbooks_. Use playbooks para auxiliar na resolução de problemas.
+6) Priorize respostas a eventos que impactam diretamente o cliente.
+7) Cada alerta deve ter um proprietário e uma ação pré-estabelecida para que possa ser executada no momento do disparo do alerta.
+8) Comunique o status operacional através de _dashboards_ (customizados para cada publico alvo: Exemplo: Gerentes, vendedores, operação, clientes, desenvolvedores...)
+9) Toda métrica coletada deve estar relacionada a um objetivo de negócio.
+
+#### Perguntas
+
+##### 8 - Como você utiliza a observabilidade do workload na sua organização?
+
+Garanta a saúde ideal do _workload_ usando observabilidade. Utilize logs, métricas e _tracings_ relevantes para obter uma visão abrangente do workload e facilitar a resolução de problemas.
+
+##### 9 - Como você entende a saúde de suas operações?
+
+Defina, capture e analise métricas dos eventos operacionais. Assim você terá boa visibilidade e pode tomar medidas adequadas.

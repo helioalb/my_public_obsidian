@@ -69,7 +69,6 @@ Joe: Sim. Eu diria para se concentrar em desenvolver essas habilidades de comuni
 
 Melissa: Com certeza. E seja flexível. Cada cliente e projeto é diferente, e os requisitos podem mudar rapidamente. A capacidade de adaptação é fundamental.
 ### Ferramentas e tecnologias
-
 Os arquitetos de soluções da AWS empregam várias ferramentas e tecnologias para projetar infraestruturas de nuvem eficazes. Essas ferramentas são combinadas com base nos requisitos específicos do projeto e nas preferências organizacionais.
 #### Principais ferramentas de design
 - **Console da AWS**: interface de gerenciamento baseada na web.
@@ -152,9 +151,7 @@ A lente do AWS Well-Architected Framework é aplicada automaticamente quando um 
 #### Perguntas
 O Well-Architected Framework oferece um conjunto de perguntas que se baseiam nos princípios de design dos seis pilares.
 As perguntas abrem uma conversa que fornece informações e ajuda para resolver problemas.
-
 Criar um sistema de software é muito parecido com a construção de um edifício. Se a base não for sólida, poderá haver problemas estruturais que minarão a integridade e a função do edifício.
-
 Ao criar soluções tecnológicas na Amazon Web Services (AWS), utilize os seis pilares do Well-Architected Framework com base em princípios de design para desenvolver um sistema que atenda às suas expectativas e seus requisitos.
 ### Princípios de design
 O AWS Well-Architected Framework permite analisar as arquiteturas e fornece orientações para melhorar os designs ao longo do tempo.
@@ -182,10 +179,8 @@ A capacidade de executar sistemas para entregar valor comercial pelo menor preç
 #### Sustentabilidade
 A capacidade de melhorar continuamente os impactos da sustentabilidade, reduzindo o consumo de energia e aumentando a eficiência em todos os componentes de um workload.
 Também maximiza os benefícios dos recursos provisionados e minimiza o total de recursos necessários.
-
 Quando você incorpora esses pilares, eles ajudam a criar sistemas estáveis e eficientes, assim você pode se concentrar nos requisitos funcionais.
 ### Perguntas sobre o AWS Well-Architected Framework
 Continuar a se aprofundar e melhorar é uma etapa essencial na operação de uma infraestrutura em nuvem eficiente. Fazer perguntas ajuda a desenvolver as operações na nuvem.
 Uma pergunta que você pode se fazer é: “Como a criptografia de dados em repouso está sendo feita?” Isso pode levar a outras perguntas, como: “É necessário criptografar dados em repouso?”, “Como criptografar dados em repouso?” e “Qual é o impacto na empresa se não forem criptografados?”
-
 As perguntas do Well-Architected Framework abrem uma conversa que fornece informações e aborda problemas nas operações na nuvem.

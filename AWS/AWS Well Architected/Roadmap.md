@@ -1,0 +1,14 @@
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/on-architecture.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/general-design-principles.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/operational-excellence.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/operational-excellence.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-definition.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-bp.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-organization.html
+- [x] https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-prepare.html
+- [ ] https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-operate.html
+- [ ] 

@@ -38,7 +38,7 @@ Sempre que possível, use serviços gerenciados. Existem pessoas especializadas 
 
 ### Organization
 - Todo mundo deve conhecer o workload, o seu papel nesse workload e os objetivos de negócio desse workload.
-- Prioridades bem definidas maximizam o eficiência do time. Converse com stackholders (internos e externos), veja necessidades de desenvolvimento e de operação para determinar onde se deve focar.
+- Prioridades bem definidas maximizam a eficiência do time. Converse com *stakeholders* (internos e externos), veja necessidades de desenvolvimento e de operação para determinar onde se deve focar.
 - Esteja atento a regulamentações da empresa, governamentais e compliance.
 - Valide se você tem mecanismos para saber quando há updates nas regulamentações (Exemplo - Software contábil: Como saber que houve mudança na legislação?)
 - Avalie os riscos (exemplo: risco de vazamento de informações). Mantenha esses riscos anotados num registro de riscos.
@@ -53,7 +53,7 @@ Todas as pessoas da equipe devem saber qual é o seu papel para atingir os objet
 
 ##### 2 - Como você estrutura sua organização para dar suporte aos resultados de negócio esperados?
 
-Seus times precisam saber qual é o seu papel no resultados do negócio. Seus times devem entender qual é o seu papel no sucesso de outros times. Devem entender que é o papel de outros times no seu resultado. E também devem entender quais são metas compartilhadas. Entendendo suas responsabilidades, responsabilidade de outros times e quem tem autoridade para tomadas de decisão vai ajudar no foco de esforços e irá maximizar o valor dos times.
+Seus times precisam saber qual é o seu papel no resultados do negócio. Seus times devem entender qual é o seu papel no sucesso de outros times. Devem entender qual é o papel de outros times no seu resultado. E também devem entender quais são metas compartilhadas. Entendendo suas responsabilidades, responsabilidade de outros times e quem tem autoridade para tomadas de decisão vai ajudar no foco de esforços e irá maximizar o valor dos times.
 
 ##### 3 - Como sua cultura organizacional pode dar suporte aos resultados de negócio desejados?
 
@@ -67,9 +67,9 @@ Dando suporte às equipes para que essas sejam mais efetivas em suas ações.
 4) Adote estratégias que facilitem a subida de mudanças em produção. (Exemplo: deploy automatizado)
 5) Adote estratégias que facilitem a reversão de mudanças (Exemplo: Rollback facilitado)
 6) Sempre faça mudanças que sejam pequenas e facilmente reversíveis.
-7) Tenha sempre playbooks (o que fazer) e runbooks (como fazer)
+7) Tenha sempre *playbooks* (o que fazer) e *runbooks* (como fazer)
 8) Infraestrutura deve estar em código.
-9) Faça "pré-mortens" para prever falhas e assim confeccionar playbooks e runbooks.
+9) Faça "pré-mortens" para prever falhas e assim confeccionar *playbooks* e *runbooks*.
 
 #### Perguntas
 
@@ -105,8 +105,27 @@ Avalie a prontidão operacional do seu workload, processos e procedimentos. Alé
 
 ##### 8 - Como você utiliza a observabilidade do workload na sua organização?
 
-Garanta a saúde ideal do _workload_ usando observabilidade. Utilize logs, métricas e _tracings_ relevantes para obter uma visão abrangente do workload e facilitar a resolução de problemas.
+Garanta a saúde ideal do _workload_ usando observabilidade. Utilize logs, métricas e _tracings_ relevantes para obter uma visão abrangente do *workload* e facilitar a resolução de problemas.
 
 ##### 9 - Como você entende a saúde de suas operações?
 
 Defina, capture e analise métricas dos eventos operacionais. Assim você terá boa visibilidade e pode tomar medidas adequadas.
+
+##### 10 - Como você gerencia seu workload e os eventos operacionais desse workload?
+
+Prepare e valide procedimentos para os eventos operacionais para diminuir possíveis problemas.
+
+
+## Evolve
+
+1) Aprenda e compartilhe para melhorar continuamente.
+2) Dedique ciclos de trabalho para fazer melhorias contínuas.
+3) Faça pós analise de qualquer evento que tenha impactado clientes. Identifique os fatores que contribuíram com o problema e defina ações preventivas para que não voltem a acontecer. Compartilhe esses fatores com as pessoas interessadas.
+4) Providencie suporte para ambientes de desenvolvimento, staging, test e produção.
+
+#### Perguntas
+
+##### 11 - Como você evolui as operações?
+
+Dedique tempo e recursos para continuamente incrementar melhorias nas operações. O resultado deve ser a evolução da eficácia e eficiência das suas operações.
+

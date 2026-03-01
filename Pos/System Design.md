@@ -34,3 +34,22 @@
 - Por que não o mysql?
 - Por que não um banco NoSQL?
 - 
+
+
+```mermaid
+sequenceDiagram
+
+Backoffice API->>Cliente: Envia e-mail de validação para
+
+Cliente->>Portal do consumidor: Clica no link e é redirecionado para
+
+Portal do consumidor->>Backoffice API: Envia código que foi recebido no link do e-mail para
+
+Backoffice API--)Portal do consumidor: Responde com true/false se validação foi sucedida para
+```
+
+
+```json
+{
+	propertyIds: [123, 456, 789, 1011]
+}
